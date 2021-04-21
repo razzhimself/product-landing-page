@@ -1,0 +1,31 @@
+body{
+    min-height: 100vh;
+    background-color: grey;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: ;*/
+   /* box-sizing: border-box;*/
+   /*position: fixed;*/
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-items: ;
+}
+
+.nav-link{
+    margin: 0 25% 0 25%;
+}
+
+img{
+    mix-blend-mode:multiply;
+    margin-right: 50%;
+
+    height: 100px;
+}
+
