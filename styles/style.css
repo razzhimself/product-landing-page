@@ -107,3 +107,8 @@ justify-content: space-between
   min-width: 100%;
 
 }
+
+.select{
+  margin: 35% auto 0 auto;
+  width: 50%;
+}
