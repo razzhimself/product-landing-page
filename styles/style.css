@@ -1,17 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100vh;
   background-color: #eeeeee;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-family: 'Lato', sans-serif;
 }
-
-#header {
-  /*position: fixed;
-  top: 0;
-  height: 100px;
-  width: 100%;*/
-}
+ 
 
 #nav-bar {
   display: flex;
@@ -20,8 +18,9 @@ body {
   width: 25%;
   height: auto;
   position: fixed;
-  top: 0;
-  right: 10%;
+  top: 5%;
+  right: 5%;
+  
 }
 
 .nav-link {
@@ -29,20 +28,29 @@ body {
   color: black;
 }
 
-#header-img {
-  height: 100px;
+#logo {
+  background-color: transparent;
+  mix-blend-mode: multiply;
+  
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0.5%;
+  left: 2.5%;
+}
+
+#header-img{
+  height: 100px;
 }
 
 /* @media (max: 425px)
 make nav bar go in a column beneath the img */
 
-main {
+
+
+ main {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
+  
 }
 
 #form {
@@ -52,6 +60,50 @@ main {
   width: 25%;
 }
 
+#features{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 1/3fr 1/3fr 1/3fr;
+  grid-template-areas: 
+  "icon1 header1"
+  "icon2 header2"
+  "icon 3 header3";
+}
+
 iframe {
   margin: 0 auto;
+}  
+
+#pricing{
+  margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between
+
+}
+
+.price-div{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: black;
+  border-width: 5px;
+  border-style: solid;
+  margin: 15px;
+  
+  
+
+  width: 300px;
+  height: 300px;
+
+}
+
+.kit{
+  font-size: 21px;
+  position: relative;
+  top: 0;
+  background-color: grey;
+  min-width: 100%;
+
 }
