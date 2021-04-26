@@ -27,8 +27,7 @@ body {
 }
 
 #logo {
-  background-color: transparent;
-  mix-blend-mode: multiply;
+  
 
   position: fixed;
   top: 0.5%;
@@ -36,7 +35,8 @@ body {
 }
 
 #header-img {
-  height: 100px;
+  height: auto;
+  width: 200px;
 }
 
 @media (max: 425px) {
@@ -61,6 +61,10 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
+}
+
+#title{
+  text-align: center;
 }
 
 #form {
@@ -118,18 +122,12 @@ iframe {
   width: 50%;
 }
 
-footer{
-  background-color: #DDDDDD;
+footer {
+  background-color: #dddddd;
   margin: auto;
   width: 50%;
-  
-  
 }
 
-
-
-.footlink{
+.footlink {
   /* add font style*/
-  
-  
 }
