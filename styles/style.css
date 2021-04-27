@@ -27,8 +27,6 @@ body {
 }
 
 #logo {
-  
-
   position: fixed;
   top: 0.5%;
   left: 2.5%;
@@ -63,7 +61,7 @@ main {
   margin-top: 10%;
 }
 
-#title{
+#title {
   text-align: center;
 }
 
@@ -106,7 +104,7 @@ iframe {
   margin: 15px;
 
   width: 300px;
-  height: 300px;
+  height: 500px;
 }
 
 .kit {
@@ -115,10 +113,11 @@ iframe {
   top: 0;
   background-color: grey;
   min-width: 100%;
+  
 }
 
 .select {
-  margin: 35% auto 0 auto;
+  margin: auto auto 5% auto;
   width: 50%;
 }
 
