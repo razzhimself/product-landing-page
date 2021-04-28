@@ -61,8 +61,19 @@ main {
   margin-top: 10%;
 }
 
+.material-icons{
+  color: #C9995C;
+  
+}
+
 #title {
   text-align: center;
+  margin-bottom: 5%;
+}
+
+#newsletter{
+  text-align: center;
+  margin-bottom: 1%;
 }
 
 #form {
@@ -81,10 +92,17 @@ main {
     "icon1 header1"
     "icon2 header2"
     "icon 3 header3";
-}
+
+    grid-row-gap: 10%;
+    
+} 
+
+
+
 
 iframe {
-  margin: 0 auto;
+  margin: 5% auto 5% auto;
+  
 }
 
 #pricing {
@@ -92,6 +110,7 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: auto auto 5% auto;
 }
 
 .price-div {
@@ -124,6 +143,7 @@ footer {
   background-color: #dddddd;
   margin: auto;
   width: 50%;
+  margin-top: 2.5%;
 }
 
 .footlink {
