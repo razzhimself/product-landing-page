@@ -10,26 +10,40 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+#page-wrapper {
+  min-width: 100%;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  max-height: min-content;
+  background-color: #eeeeee;
+  z-index: 1;
+}
+
 #nav-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   width: 25%;
   height: auto;
   position: fixed;
-  top: 5%;
-  right: 5%;
+  top: 2.5%;
+  right: 2.5%;
+}
+
+.nav-link-list {
+  list-style-type: none;
+  margin: 5%;
 }
 
 .nav-link {
   font-weight: bold;
   color: black;
-}
-
-#logo {
-  position: fixed;
-  top: 0.5%;
-  left: 2.5%;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
 
 #header-img {
@@ -61,9 +75,8 @@ main {
   margin-top: 10%;
 }
 
-.material-icons{
-  color: #C9995C;
-  
+.material-icons {
+  color: #c9995c;
 }
 
 #title {
@@ -71,7 +84,7 @@ main {
   margin-bottom: 5%;
 }
 
-#newsletter{
+#newsletter {
   text-align: center;
   margin-bottom: 1%;
 }
@@ -85,6 +98,8 @@ main {
 
 #features {
   margin: auto;
+  padding-top: 117.53px;
+
   display: grid;
   grid-template-columns: 10% 90%;
   grid-template-rows: 1/3fr 1/3fr 1/3fr;
@@ -93,28 +108,30 @@ main {
     "icon2 header2"
     "icon 3 header3";
 
-    grid-row-gap: 10%;
-    
-} 
+  grid-row-gap: 10%;
+}
 
-
-
-
+#video {
+  padding-top: 117.53px;
+  margin: auto;
+}
 iframe {
   margin: 5% auto 5% auto;
-  
 }
 
 #pricing {
   margin: auto;
+  padding-top: 117.53px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: auto auto 5% auto;
+  list-style-position: inside;
 }
 
 .price-div {
   text-align: center;
+  line-height: 2.2;
   display: flex;
   flex-direction: column;
   border: black;
@@ -122,8 +139,9 @@ iframe {
   border-style: solid;
   margin: 15px;
 
-  width: 300px;
+  width: 375px;
   height: 500px;
+  font-family: monospace;
 }
 
 .kit {
@@ -144,6 +162,10 @@ footer {
   margin: auto;
   width: 50%;
   margin-top: 2.5%;
+}
+
+.material-icons {
+  vertical-align: -14%;
 }
 
 .footlink {
