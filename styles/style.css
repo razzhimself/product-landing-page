@@ -7,7 +7,6 @@
 body {
   min-height: 100vh;
   background-color: #eeeeee;
-  font-family: "Lato", sans-serif;
 }
 
 #page-wrapper {
@@ -21,6 +20,7 @@ body {
   max-height: min-content;
   background-color: #eeeeee;
   z-index: 1;
+  
 }
 
 #nav-bar {
@@ -73,6 +73,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
+  
 }
 
 .material-icons {
@@ -81,7 +82,10 @@ main {
 
 #title {
   text-align: center;
+  font-size: 35px;
   margin-bottom: 5%;
+  font-family: 'Antonio', sans-serif;
+  
 }
 
 #newsletter {
@@ -94,6 +98,10 @@ main {
   display: flex;
   flex-direction: column;
   width: 25%;
+}
+
+.feature{
+  font-family: 'ABeeZee', sans-serif;
 }
 
 #features {
@@ -111,9 +119,12 @@ main {
   grid-row-gap: 10%;
 }
 
+
+
 #video {
   padding-top: 117.53px;
   margin: auto;
+
 }
 iframe {
   margin: 5% auto 5% auto;
@@ -135,13 +146,13 @@ iframe {
   display: flex;
   flex-direction: column;
   border: black;
-  border-width: 5px;
-  border-style: solid;
+  border-width: 10px;
+  border-style:double;
   margin: 15px;
 
   width: 375px;
   height: 500px;
-  font-family: monospace;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 .kit {
@@ -155,6 +166,13 @@ iframe {
 .select {
   margin: auto auto 5% auto;
   width: 50%;
+  background-color: #c9995c;
+  font-weight: bold;
+  width: 10em;
+  height: 2.5em;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
 }
 
 footer {
