@@ -140,14 +140,18 @@ iframe {
   line-height: 2.2;
   display: flex;
   flex-direction: column;
-  border: black;
+  border: #c9995c;
   border-width: 10px;
   border-style: double;
   margin: 15px;
 
   width: 375px;
-  height: 500px;
+  height: fit-content;
   font-family: "ABeeZee", sans-serif;
+}
+
+.rings-img{
+  
 }
 
 .kit {
