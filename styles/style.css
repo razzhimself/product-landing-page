@@ -20,7 +20,7 @@ body {
   max-height: min-content;
   background-color: #eeeeee;
   z-index: 1;
-  
+  font-family: "ABeeZee", sans-serif;
 }
 
 #nav-bar {
@@ -73,7 +73,6 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
-  
 }
 
 .material-icons {
@@ -84,8 +83,7 @@ main {
   text-align: center;
   font-size: 35px;
   margin-bottom: 5%;
-  font-family: 'Antonio', sans-serif;
-  
+  font-family: "Antonio", sans-serif;
 }
 
 #newsletter {
@@ -100,8 +98,8 @@ main {
   width: 25%;
 }
 
-.feature{
-  font-family: 'ABeeZee', sans-serif;
+.feature {
+  font-family: "ABeeZee", sans-serif;
 }
 
 #features {
@@ -119,12 +117,9 @@ main {
   grid-row-gap: 10%;
 }
 
-
-
 #video {
   padding-top: 117.53px;
   margin: auto;
-
 }
 iframe {
   margin: 5% auto 5% auto;
@@ -147,12 +142,12 @@ iframe {
   flex-direction: column;
   border: black;
   border-width: 10px;
-  border-style:double;
+  border-style: double;
   margin: 15px;
 
   width: 375px;
   height: 500px;
-  font-family: 'ABeeZee', sans-serif;
+  font-family: "ABeeZee", sans-serif;
 }
 
 .kit {
