@@ -160,7 +160,7 @@ iframe {
   margin: 15px;
 
   width: 375px;
-  height: fit-content;
+  max-height: fit-content;
   font-family: "ABeeZee", sans-serif;
 }
 
