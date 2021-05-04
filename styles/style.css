@@ -86,6 +86,20 @@ main {
   font-family: "Antonio", sans-serif;
 }
 
+#product-des{
+text-align: center;
+font-family: "ABeeZee", sans-serif;
+font-size: 20px;
+border-style:double;
+padding: 10px;
+border-width: 10px;
+width: fit-content;
+margin: auto;
+border-color: #c9995c;
+
+
+}
+
 #newsletter {
   text-align: center;
   margin-bottom: 1%;
@@ -150,15 +164,17 @@ iframe {
   font-family: "ABeeZee", sans-serif;
 }
 
-.rings-img{
-  
+.rings-img {
+  border-color: #868587;
+  border-width: 5px;
+  border-style: solid;
 }
 
 .kit {
   font-size: 21px;
   position: relative;
   top: 0;
-  background-color: grey;
+  background-color: #EEEEEE;
   min-width: 100%;
 }
 
