@@ -51,7 +51,7 @@ right:7.5%;
   padding: 16px;
   text-decoration: none;
 
-  font-size: 21px;
+  font-size: 15px;
 
   
   
@@ -513,7 +513,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1450px) {
+@media only screen and (min-width: 2560px) {
   #header {
     position: fixed;
     top: 0;
@@ -588,11 +588,11 @@ footer {
   #features {
     font-size: 25px;
     margin: auto;
-    padding-top: 117.53px;
+    padding-top: 266.97px;
 
     display: grid;
     grid-template-columns: 10% 90%;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: (1fr,1fr,1fr);
     grid-template-areas:
       "icon1 header1"
       "icon2 header2"
