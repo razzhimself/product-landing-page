@@ -114,14 +114,15 @@ main {
   grid-row-gap: 10%;
 }
 
-#video {
+#video-div {
   padding-top: 117.53px;
   margin: auto;
 }
-iframe {
+#video {
   margin: 5% auto 5% auto;
   width: 560px;
   height: 315px;
+  
 }
 
 #pricing {
@@ -242,11 +243,11 @@ footer {
 
   /*video section*/
 
-  #video {
+  #video-div {
     padding-top: 117.53px;
     margin: auto;
   }
-  iframe {
+  #video {
     margin: 20% 0 5% 0;
     width: 100%;
     height: auto;
