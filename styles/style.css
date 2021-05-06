@@ -102,7 +102,7 @@ i.material-icons {
 
 #features {
   margin: auto;
-  padding-top: 117.53px;
+  padding-top: 154.27px;
 
   display: grid;
   grid-template-columns: 10% 90%;
@@ -116,9 +116,9 @@ i.material-icons {
 }
 
 
-
+/*fix nav-bar hiding video when click on link */
 #video-div {
-  padding-top: 117.53px;
+  padding-top: 173.69px;
   margin: auto;
 }
 #video {
@@ -129,7 +129,7 @@ i.material-icons {
 
 #pricing {
   margin: auto;
-  padding-top: 117.53px;
+  padding-top: 154.27px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -243,12 +243,6 @@ footer {
    
   } 
 
-  #nav-bar{
-  }
-    
-    
-  
-
   
 
   .nav-link-list {
@@ -267,17 +261,23 @@ footer {
   /*title*/
 
   #title {
+    
     text-align: center;
     font-size: 25px;
-    margin-top: 65%;
+    margin-top: 45%;
     margin-bottom: 5%;
     font-family: "Antonio", sans-serif;
+  }
+
+  /*features section*/
+  #features{
+    padding-top: 162.69px;
   }
 
   /*video section*/
 
   #video-div {
-    padding-top: 117.53px;
+    padding-top: 162.69px;
     margin: auto;
   }
   #video {
@@ -290,7 +290,7 @@ footer {
 
   #pricing {
     margin: auto;
-    padding-top: 117.53px;
+    padding-top: 162.69px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -368,6 +368,11 @@ footer {
   #usa {
     width: 100%;
   }
+
+  i.material-icons {
+    color: #c9995c;
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 577px) {
@@ -424,11 +429,16 @@ footer {
     font-family: "Antonio", sans-serif;
   }
 
+  /*features section*/
+  #features{
+    padding-top: 173.69px;
+  }
+
   /*pricing section*/
 
   #pricing {
     margin: auto;
-    padding-top: 117.53px;
+    padding-top: 173.69px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -553,6 +563,11 @@ footer {
     border-color: #c9995c;
   }
 
+  /*features section*/
+  #features{
+    padding-top: 266.97px;
+  }
+
   #newsletter {
     text-align: center;
     margin-bottom: 1%;
@@ -598,7 +613,7 @@ footer {
 
   #pricing {
     margin: auto;
-    padding-top: 117.53px;
+    padding-top: 266.97px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -666,5 +681,8 @@ footer {
     margin-top: 2.5%;
   }
 
-  
+  i.material-icons {
+    color: #c9995c;
+    font-size: 55px;
+  }
 }
