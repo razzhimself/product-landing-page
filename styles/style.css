@@ -7,11 +7,10 @@
 body {
   min-height: 100vh;
   background-color: #eeeeee;
-}
-
-#page-wrapper {
   min-width: 100%;
 }
+
+
 
 #header {
   position: fixed;
@@ -102,7 +101,7 @@ main {
 
   display: grid;
   grid-template-columns: 10% 90%;
-  grid-template-rows: 1/3fr 1/3fr 1/3fr;
+  grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
     "icon1 header1"
     "icon2 header2"
@@ -582,7 +581,7 @@ footer {
 
     display: grid;
     grid-template-columns: 10% 90%;
-    grid-template-rows: 1/3fr 1/3fr 1/3fr;
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
       "icon1 header1"
       "icon2 header2"
