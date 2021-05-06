@@ -116,9 +116,9 @@ i.material-icons {
 }
 
 
-/*fix nav-bar hiding video when click on link */
+
 #video-div {
-  padding-top: 173.69px;
+  padding-top: 154.27px;
   margin: auto;
 }
 #video {
@@ -462,6 +462,11 @@ footer {
     font-family: "ABeeZee", sans-serif;
   }
 
+  #video-div {
+    padding-top: 173.69px;
+    margin: auto;
+  }
+
   .rings-img {
     border-color: #868587;
     border-width: 5px;
@@ -602,7 +607,7 @@ footer {
   }
 
   #video-div {
-    padding-top: 117.53px;
+    padding-top: 266.97px;
     margin: auto;
   }
   #video {
