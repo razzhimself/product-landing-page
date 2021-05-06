@@ -29,8 +29,6 @@ body {
   position: fixed;
   top: 2.5%;
   right: 2.5%;
-  
-  
 }
 
 .nav-link-list {
@@ -46,7 +44,6 @@ body {
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  
 }
 
 #header-img {
@@ -122,7 +119,6 @@ main {
   margin: 5% auto 5% auto;
   width: 560px;
   height: 315px;
-  
 }
 
 #pricing {
@@ -180,6 +176,14 @@ main {
   vertical-align: -14%;
 }
 
+#usa-div {
+  text-align: center;
+}
+
+#usa {
+  width: 50%;
+}
+
 footer {
   background-color: #dddddd;
   margin: auto;
@@ -191,7 +195,7 @@ footer {
   /* add font style*/
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 576px) {
   /* header section*/
   #header {
     display: flex;
@@ -333,12 +337,14 @@ footer {
     flex-direction: column;
     width: 100%;
   }
+
+  #usa {
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 768px)  {
-
-
-#header {
+@media only screen and (max-width: 1024px) and (min-width: 577px) {
+  #header {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -376,29 +382,29 @@ footer {
     text-decoration: none;
   }
 
-/*title*/
+  /*title*/
 
-#title {
-  text-align: center;
-  font-size: 35px;
-  margin-top: 21%;
-  margin-bottom: 5%;
-  font-family: "Antonio", sans-serif;
-}
+  #title {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 21%;
+    margin-bottom: 5%;
+    font-family: "Antonio", sans-serif;
+  }
 
-/*pricing section*/
+  /*pricing section*/
 
-#pricing {
-  margin: auto;
-  padding-top: 117.53px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: auto auto 5% auto;
-  list-style-position: inside;
-}
+  #pricing {
+    margin: auto;
+    padding-top: 117.53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto auto 5% auto;
+    list-style-position: inside;
+  }
 
-/*.price-div {
+  /*.price-div {
   text-align: center;
   line-height: 2.2;
   display: flex;
@@ -413,73 +419,259 @@ footer {
   font-family: "ABeeZee", sans-serif;
 } */
 
-.price-div {
-  text-align: center;
-  line-height: 2.2;
-  display: flex;
-  flex-direction: column;
-  border: #c9995c;
-  border-width: 10px;
-  border-style: double;
-  margin: 5px;
+  .price-div {
+    text-align: center;
+    line-height: 2.2;
+    display: flex;
+    flex-direction: column;
+    border: #c9995c;
+    border-width: 10px;
+    border-style: double;
+    margin: 5px;
 
-  width: 100%;
-  max-height: fit-content;
-  font-family: "ABeeZee", sans-serif;
+    width: 100%;
+    max-height: fit-content;
+    font-family: "ABeeZee", sans-serif;
+  }
+
+  .rings-img {
+    border-color: #868587;
+    border-width: 5px;
+    border-style: solid;
+    width: 100%;
+  }
+
+  .kit {
+    font-size: 21px;
+    position: relative;
+    top: 0;
+    background-color: #eeeeee;
+    max-width: 100%;
+  }
+
+  .select {
+    margin: auto auto 5% auto;
+    width: 50%;
+    background-color: #c9995c;
+    font-weight: bold;
+    width: 10em;
+    height: 2.5em;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  /*footer*/
+  footer {
+    background-color: #dddddd;
+    margin: auto;
+    width: 100%;
+    margin-top: 2.5%;
+  }
+
+  .footlink {
+    /* add font style*/
+  }
+
+  /*form*/
+
+  #newsletter {
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 20px;
+  }
+
+  #form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
-.rings-img {
-  border-color: #868587;
-  border-width: 5px;
-  border-style: solid;
-  width: 100%;
-}
+@media only screen and (min-width: 1450px) {
+  #header {
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    max-height: min-content;
+    background-color: #eeeeee;
+    z-index: 1;
+    font-family: "ABeeZee", sans-serif;
+  }
 
-.kit {
-  font-size: 21px;
-  position: relative;
-  top: 0;
-  background-color: #eeeeee;
-  max-width: 100%;
-  
-}
+  #nav-bar {
+    width: 25%;
+    height: auto;
+    position: fixed;
+    top: 2.5%;
+    right: 2.5%;
+  }
 
-.select {
-  margin: auto auto 5% auto;
-  width: 50%;
-  background-color: #c9995c;
-  font-weight: bold;
-  width: 10em;
-  height: 2.5em;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black;
-}
+  .nav-link-list {
+    list-style-type: none;
+    margin: 5%;
+  }
 
-/*footer*/
-footer {
-  background-color: #dddddd;
-  margin: auto;
-  width: 100%;
-  margin-top: 2.5%;
-}
+  .nav-link {
+    font-weight: bold;
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
 
-.footlink {
-  /* add font style*/
-}
+  #header-img {
+    height: auto;
+    width: 350px;
+  }
 
-/*form*/
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+  }
 
-#newsletter {
-  text-align: center;
-  margin-bottom: 1%;
-  font-size: 20px;
-}
+  .material-icons {
+    color: #c9995c;
+  }
 
-#form {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+  #title {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 5%;
+    font-family: "Antonio", sans-serif;
+  }
+
+  #product-des {
+    text-align: center;
+    font-family: "ABeeZee", sans-serif;
+    font-size: 25px;
+    border-style: double;
+    padding: 10px;
+    border-width: 10px;
+    width: fit-content;
+    margin: auto;
+    border-color: #c9995c;
+  }
+
+  #newsletter {
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 35px;
+  }
+
+  #form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
+
+  .feature {
+    font-family: "ABeeZee", sans-serif;
+  }
+
+  #features {
+    font-size: 25px;
+    margin: auto;
+    padding-top: 117.53px;
+
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1/3fr 1/3fr 1/3fr;
+    grid-template-areas:
+      "icon1 header1"
+      "icon2 header2"
+      "icon 3 header3";
+
+    grid-row-gap: 10%;
+  }
+
+  #video-div {
+    padding-top: 117.53px;
+    margin: auto;
+  }
+  #video {
+    margin: 5% auto 5% auto;
+    width: 900px;
+    height: 450px;
+  }
+
+  #pricing {
+    margin: auto;
+    padding-top: 117.53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto auto 5% auto;
+    list-style-position: inside;
+  }
+
+  .price-div {
+    text-align: center;
+    line-height: 2.2;
+    display: flex;
+    flex-direction: column;
+    border: #c9995c;
+    border-width: 10px;
+    border-style: double;
+    margin: 15px;
+
+    width: 550px;
+    max-height: fit-content;
+    font-family: "ABeeZee", sans-serif;
+  }
+
+  .rings-img {
+    border-color: #868587;
+    border-width: 5px;
+    border-style: solid;
+  }
+
+  .kit {
+    font-size: 55px;
+    position: relative;
+    top: 0;
+    background-color: #eeeeee;
+    min-width: 100%;
+  }
+
+  .select {
+    margin: auto auto 5% auto;
+    width: 50%;
+    background-color: #c9995c;
+    font-weight: bold;
+    width: 10em;
+    height: 2.5em;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .material-icons {
+    vertical-align: -14%;
+  }
+
+  #usa-div {
+    text-align: center;
+  }
+
+  #usa {
+    width: 35%;
+  }
+
+  footer {
+    background-color: #dddddd;
+    margin: auto;
+    width: 50%;
+    margin-top: 2.5%;
+  }
+
+  .footlink {
+    /* add font style*/
+  }
 }
